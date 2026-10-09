@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ПРОЕКТ DANTES — задания с оплатой</title>
+
+    <meta name="description"
+          content="ПРОЕКТ DANTES — задания, инструкции и возможности для дополнительного дохода.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css?v=7">
+</head>
+
+<body>
+
+<div class="noise"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <div class="container header-inner">
+
+        <a href="#" class="logo">
+            <span class="logo-d">D</span>
+            <span class="logo-text">ПРОЕКТ<br>DANTES</span>
+        </a>
+
+        <nav class="nav">
+            <a href="#tasks">Задания</a>
+            <a href="#about">О проекте</a>
+            <a href="#steps">Как это работает</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#faq">Вопросы</a>
+        </nav>
+
+        <a href="#tasks" class="header-button">
+            Задания <span>↓</span>
+        </a>
+
+        <button class="mobile-menu-button" id="menuButton" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+</header>
+
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#tasks">Задания</a>
+    <a href="#about">О проекте</a>
+    <a href="#steps">Как это работает</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#faq">Вопросы</a>
+    <a href="https://t.me/+Ebq0QNx2VoxhNmM6" target="_blank" class="mobile-telegram">Telegram ↗</a>
+</div>
+
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-ring"></div>
+    <div class="hero-ring ring-2"></div>
+    <div class="hero-vignette"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-label reveal">
+            <span class="pulse"></span>
+            Платформа заданий
+        </div>
+
+        <h1 class="hero-title">
+            <span class="line"><span>ПРОЕКТ</span></span>
+            <span class="line accent"><span>DANTES</span></span>
+        </h1>
+
+        <p class="hero-description reveal">
+            Выбирайте подходящее задание, переходите в Telegram
+            и получайте подробную инструкцию.
+            <strong>Чётко. Прозрачно. Без лишних форм.</strong>
+        </p>
+
+        <div class="hero-buttons reveal">
+            <a href="#tasks" class="button button-red" data-magnetic>
+                Смотреть задания
+                <span>↓</span>
+            </a>
+
+            <a href="https://t.me/+Ebq0QNx2VoxhNmM6" target="_blank" class="button button-ghost" data-magnetic>
+                Telegram
+                <span>↗</span>
+            </a>
+        </div>
+
+        <div class="hero-statistics">
+            <div class="stat reveal">
+                <strong>01</strong>
+                <span>Выберите<br>задание</span>
+            </div>
+            <div class="stat reveal">
+                <strong>02</strong>
+                <span>Получите<br>инструкцию</span>
+            </div>
+            <div class="stat reveal">
+                <strong>03</strong>
+                <span>Получите<br>оплату</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+        <span>DANTES</span><i>·</i>
+        <span>ЗАДАНИЯ С ОПЛАТОЙ</span><i>·</i>
+        <span>TELEGRAM</span><i>·</i>
+        <span>ПРОЗРАЧНЫЕ УСЛОВИЯ</span><i>·</i>
+        <span>ВЫПЛАТЫ</span><i>·</i>
+        <span>DANTES</span><i>·</i>
+        <span>ЗАДАНИЯ С ОПЛАТОЙ</span><i>·</i>
+        <span>TELEGRAM</span><i>·</i>
+        <span>ПРОЗРАЧНЫЕ УСЛОВИЯ</span><i>·</i>
+        <span>ВЫПЛАТЫ</span><i>·</i>
+    </div>
+</div>
+
+
+<!-- TASKS -->
+<section class="tasks section" id="tasks">
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="section-number">01 — Каталог</span>
+                <h2>Актуальные<br><span>задания</span></h2>
+            </div>
+            <p>
+                Выберите подходящий вариант.
+                Кнопка откроет Telegram с уже подготовленным сообщением.
+            </p>
+        </div>
+
+        <div class="tasks-grid">
+
+            <article class="task-card featured reveal">
+                <div class="card-shine"></div>
+                <div class="task-top">
+                    <span class="task-number">01</span>
+                    <span class="task-price">до 15 000 ₽</span>
+                </div>
+                <div class="task-tag muted">Жирное предложение</div>
+                <h3>Бизнес-карта<br><span>+ Отзыв</span></h3>
+                <p class="task-description">
+                    Оформите бизнес-карту, выполните условия
+                    задания и получите вознаграждение.
+                </p>
+                <div class="task-info">
+                    <div>
+                        <span>Формат</span>
+                        <strong>Онлайн</strong>
+                    </div>
+                    <div>
+                        <span>Инструкция</span>
+                        <strong>В Telegram</strong>
+                    </div>
+                </div>
+                <a href="https://t.me/fersich?text=Привет! Ознакомился (-ась) с вашими заданиями и меня заинтересовало задание - Бизнес карта"
+                   target="_blank"
+                   class="task-button">
+                    Получить задание
+                    <span>↗</span>
+                </a>
+            </article>
+
+            <article class="task-card reveal">
+                <div class="card-shine"></div>
+                <div class="task-top">
+                    <span class="task-number">02</span>
+                    <span class="task-price">до 7 000 ₽</span>
+                </div>
+                <div class="task-tag muted">Быстрое</div>
+                <h3>Беттинг<br><span>+ Отзыв</span></h3>
+                <p class="task-description">
+                    Регистрируете букмекерские конторы, выполните условия задания и получите выплату.
+                </p>
+                <div class="task-info">
+                    <div>
+                        <span>Формат</span>
+                        <strong>Онлайн</strong>
+                    </div>
+                    <div>
+                        <span>Инструкция</span>
+                        <strong>В Telegram</strong>
+                    </div>
+                </div>
+                <a href="https://t.me/fersich?text=Привет! Ознакомился (-ась) с вашими заданиями и меня заинтересовало задание - Беттинг"
+                   target="_blank"
+                   class="task-button">
+                    Получить задание
+                    <span>↗</span>
+                </a>
+            </article>
+
+            <article class="task-card reveal">
+                <div class="card-shine"></div>
+                <div class="task-top">
+                    <span class="task-number">03</span>
+                    <span class="task-price">до 2 000 ₽</span>
+                </div>
+                <div class="task-tag muted">Простое</div>
+                <h3>Дебетовая карта<br><span>+ Отзыв</span></h3>
+                <p class="task-description">
+                    Оформите дебетовую карту, выполните
+                    необходимые условия и получите оплату.
+                </p>
+                <div class="task-info">
+                    <div>
+                        <span>Формат</span>
+                        <strong>Онлайн</strong>
+                    </div>
+                    <div>
+                        <span>Инструкция</span>
+                        <strong>В Telegram</strong>
+                    </div>
+                </div>
+                <a href="https://t.me/fersich?text=Привет! Ознакомился (-ась) с вашими заданиями и меня заинтересовало задание - Дебетовая карта"
+                   target="_blank"
+                   class="task-button">
+                    Получить задание
+                    <span>↗</span>
+                </a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+    <div class="container">
+        <div class="about-grid">
+
+            <div class="about-title">
+                <span class="section-number">02 — Смысл</span>
+                <h2>В чём же<br><span>наша выгода?</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="big-d">D</div>
+                <p>
+                    <strong>ПРОЕКТ DANTES</strong> объединяет
+                    актуальные задания и предложения,
+                    которые можно выполнять онлайн.
+                </p>
+                <p>
+                    Вы выбираете подходящее задание,
+                    получаете понятную инструкцию и
+                    выполняете необходимые условия.
+                </p>
+                <div class="about-line"></div>
+                <div class="about-features">
+                    <div class="reveal">
+                        <strong>01</strong>
+                        <span>Понятные<br>условия</span>
+                    </div>
+                    <div class="reveal">
+                        <strong>02</strong>
+                        <span>Поддержка<br>в Telegram</span>
+                    </div>
+                    <div class="reveal">
+                        <strong>03</strong>
+                        <span>Вознаграждение<br>за выполнение</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- STEPS -->
+<section class="steps section" id="steps">
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="section-number">03 — Процесс</span>
+                <h2>Три шага<br><span>до выплаты</span></h2>
+            </div>
+            <p>
+                Все условия и детали выполнения
+                вы получите после перехода
+                в Telegram.
+            </p>
+        </div>
+
+        <div class="steps-grid">
+            <div class="step reveal">
+                <div class="step-number">01</div>
+                <div>
+                    <h3>Выберите</h3>
+                    <h4>задание</h4>
+                    <p>Ознакомьтесь с вознаграждением и форматом выполнения.</p>
+                </div>
+            </div>
+            <div class="step reveal">
+                <div class="step-number">02</div>
+                <div>
+                    <h3>Получите</h3>
+                    <h4>инструкцию</h4>
+                    <p>Нажмите кнопку и перейдите в Telegram для получения подробной инструкции.</p>
+                </div>
+            </div>
+            <div class="step reveal">
+                <div class="step-number">03</div>
+                <div>
+                    <h3>Получите</h3>
+                    <h4>оплату</h4>
+                    <p>Выполните условия задания и следуйте инструкции для подтверждения.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- TELEGRAM CTA -->
+<section class="telegram-section">
+    <div class="container">
+        <div class="telegram-box reveal">
+            <div class="telegram-glow"></div>
+            <div>
+                <span class="telegram-label">Telegram</span>
+                <h2>Все актуальные<br>задания — здесь.</h2>
+                <p>Подписывайтесь на Telegram, чтобы не пропускать новые предложения.</p>
+            </div>
+            <a href="https://t.me/+Ebq0QNx2VoxhNmM6" target="_blank" class="telegram-button" data-magnetic>
+                Перейти в Telegram
+                <span>↗</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- REVIEWS -->
+<section class="reviews section" id="reviews">
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="section-number">04 — Доверие</span>
+                <h2>Отзывы<br><span>участников</span></h2>
+            </div>
+            <p>
+                Реальные отзывы участников
+                проекта и результаты выполнения заданий.
+            </p>
+        </div>
+
+        <div class="reviews-grid">
+            <article class="review reveal">
+                <div class="review-top">
+                    <div class="review-avatar">А</div>
+                    <div>
+                        <strong>Александр</strong>
+                        <span>Участник проекта</span>
+                    </div>
+                </div>
+                <div class="stars">★★★★★</div>
+                <p>
+                    «Всё объяснили буквально по шагам.
+                    Выполнил задание и получил оплату.
+                    Никаких сложностей.»
+                </p>
+            </article>
+
+            <article class="review reveal">
+                <div class="review-top">
+                    <div class="review-avatar">М</div>
+                    <div>
+                        <strong>Максим</strong>
+                        <span>Участник проекта</span>
+                    </div>
+                </div>
+                <div class="stars">★★★★★</div>
+                <p>
+                    «Удобно, что сразу дают подробную
+                    инструкцию. Если возникают вопросы,
+                    то всегда на связи кураторы проекта.»
+                </p>
+            </article>
+
+            <article class="review reveal">
+                <div class="review-top">
+                    <div class="review-avatar">И</div>
+                    <div>
+                        <strong>Илья</strong>
+                        <span>Участник проекта</span>
+                    </div>
+                </div>
+                <div class="stars">★★★★★</div>
+                <p>
+                    «Задание было понятное.
+                    Всё сделал по инструкции
+                    и получил вознаграждение.»
+                </p>
+            </article>
+        </div>
+
+        <div class="reviews-button-wrap">
+            <a href="https://t.me/dantesdm" target="_blank" class="button button-red" data-magnetic>
+                Все отзывы в Telegram ↗
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="faq section" id="faq">
+    <div class="container">
+        <div class="section-heading">
+            <div>
+                <span class="section-number">05 — Ответы</span>
+                <h2>Частые<br><span>вопросы</span></h2>
+            </div>
+            <p>
+                Коротко о том, как всё устроено.
+                Детали каждого задания — в Telegram.
+            </p>
+        </div>
+
+        <div class="faq-list">
+            <div class="faq-item reveal">
+                <button type="button">Как получить задание?</button>
+                <p>Выберите карточку, нажмите кнопку и напишите в Telegram. Инструкция придёт после обращения.</p>
+            </div>
+            <div class="faq-item reveal">
+                <button type="button">Нужно ли заполнять формы на сайте?</button>
+                <p>Нет. На сайте только выбор задания. Вся работа идёт через Telegram, без лишних анкет.</p>
+            </div>
+            <div class="faq-item reveal">
+                <button type="button">Когда приходит оплата?</button>
+                <p>После выполнения условий задания и подтверждения по инструкции, которую вы получите в чате.</p>
+            </div>
+            <div class="faq-item reveal">
+                <button type="button">Задания доступны из любого города?</button>
+                <p>Да, формат онлайн. Следите за новыми предложениями в Telegram-канале проекта.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <a href="#" class="logo footer-logo">
+                <span class="logo-d">D</span>
+                <span class="logo-text">ПРОЕКТ<br>DANTES</span>
+            </a>
+            <div class="footer-links">
+                <a href="#tasks">Задания</a>
+                <a href="#about">О проекте</a>
+                <a href="#steps">Как это работает</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#faq">Вопросы</a>
+            </div>
+            <a href="https://t.me/+Ebq0QNx2VoxhNmM6" target="_blank" class="footer-telegram">Telegram ↗</a>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 ПРОЕКТ DANTES</span>
+            <span>Информация на сайте не является публичной офертой.</span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js?v=3"></script>
+</body>
+</html>
